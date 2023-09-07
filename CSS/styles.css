@@ -1,0 +1,46 @@
+/*
+play with
+-color
+-background color
+-typography propertiers
+
+*/
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.pageTitle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: crimson;
+    background-color: plum;
+}
+
+a{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: darkslategray;
+    background-color: yellow;
+}
+
+ul,
+ol {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul li,
+ul p,
+ol li,
+ol p {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.bold-text {
+    font-weight: bold;
+}
