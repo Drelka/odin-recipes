@@ -9,6 +9,7 @@ play with
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
+    text-align: center;
 }
 
 .pageTitle {
@@ -31,6 +32,9 @@ ul,
 ol {
     font-size: 24px;
     font-weight: bold;
+    width: 40%;
+    margin: 15px auto;
+    text-align: left;
 }
 
 ul li,
@@ -39,8 +43,5 @@ ol li,
 ol p {
     font-size: 14px;
     font-weight: 100;
-}
-
-.bold-text {
-    font-weight: bold;
+    text-align: left;
 }
