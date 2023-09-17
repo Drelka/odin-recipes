@@ -1,47 +1,82 @@
-/*
-play with
--color
--background color
--typography propertiers
-
-*/
-
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     text-align: center;
+    margin: 0;
 }
 
-.pageTitle {
+img{
+    max-width: 600px;
+    height: auto;
+    margin: 25px;
+}
+
+.wrapper{
+    max-width: 700px;
+    margin: auto;
+}
+
+.pageTitle{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     font-size: 50px;
-    color: crimson;
-    background-color: plum;
+    color: rgba(107, 70, 14, 0.863);
+    background-color: rgba(196, 69, 196, 0.452);
+    border: double rgba(196, 69, 196, 0.452) .3em;
+    border-top: none;
+    border-radius: 0 0 5em 5em;
+    display: block;
+    max-width: 600px;
+    padding: 20px 50px;
+    margin: 0 auto 20px;
 }
 
 a{
     font-size: 30px;
     text-align: center;
     text-decoration: none;
-    color: darkslategray;
-    background-color: yellow;
-}
-
-ul,
-ol {
-    font-size: 24px;
-    font-weight: bold;
-    width: 40%;
-    margin: 15px auto;
-    text-align: left;
+    color: #fff;
 }
 
 ul li,
-ul p,
-ol li,
-ol p {
-    font-size: 14px;
+ol li {
+    font-size: 24px;
     font-weight: 100;
     text-align: left;
+}
+
+ol li{
+    list-style-type: none;
+    border-left: black solid 5px;
+    padding-left: .5em;
+    margin-top: .6em;
+    margin-left: -20px;
+}
+
+.recipe-button{
+    max-width: 20em;
+    background-color: lightslategrey;
+    margin: .3em auto;
+    padding: .1em;
+    border-radius: 1.5em;
+    border-bottom: solid .3em;
+    border-right: solid .2em;
+}
+
+.home-btn{
+    background-color: rgba(0, 0, 255, 0.582);
+    display: inline-block;
+    margin: 2em;
+    margin-bottom: 0;
+    padding: 1em 1em .5em 1em;
+    border-radius: 3em 3em 0 0;
+
+}
+
+.span-title{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 3em .5em .5em .5em;
+    text-align: right;
 }
